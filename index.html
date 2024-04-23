@@ -41,14 +41,15 @@
         
         <script>
             var sound1 = new buzz.sound("sound/light-switch.mp3");
-            var sound2 = new buzz.sound("sound/glitch2.mp3");
-            var sound3 = new buzz.sound("sound/glitch3.mp3");
-            var sound4 = new buzz.sound("sound/glitch1.mp3");
-            var sound5 = new buzz.sound("sound/glitch2.mp3");
-            var sound6 = new buzz.sound("sound/glitch3.mp3");
-            var sound7 = new buzz.sound("sound/glitch1.mp3");
-            var sound8 = new buzz.sound("sound/glitch2.mp3");
-            var sound9 = new buzz.sound("sound/glitch3.mp3");
+            var sound2 = new buzz.sound("sound/car-engine-startup.mp3");
+            var sound3 = new buzz.sound("sound/yacht-horn.mp3");
+            var sound4 = new buzz.sound("sound/jet-engine.mp3");
+            var sound5 = new buzz.sound("sound/restaurant.mp3");
+            var sound6 = new buzz.sound("sound/investing.mp3");
+            var sound7 = new buzz.sound("sound/clock-ticking.mp3");
+            var sound8 = new buzz.sound("sound/diamond1.mp3");
+            var sound9 = new buzz.sound("sound/diamond2.mp3");
+            var sound10 = new buzz.sound("sound/wine-glass-clink.mp3");
      
             window.onload = function() {
                 document.getElementById('img1').addEventListener('mouseenter', function () {sound1.play(); });  
@@ -67,8 +68,9 @@
                 document.getElementById('img7').addEventListener('mouseenter', function () {sound7.play(); });
 
                 document.getElementById('img8').addEventListener('mouseenter', function () {sound8.play(); });
+                document.getElementById('img8').addEventListener('mouseleave', function () {sound9.play(); });
 
-                document.getElementById('img9').addEventListener('mouseenter', function () {sound9.play(); });
+                document.getElementById('img9').addEventListener('mouseenter', function () {sound10.play(); });
             }  
         </script>   
         
